@@ -49,7 +49,10 @@ class CGPA {
 
 
 ## Ternary Operator in java
+
 <p>Ternary Operator in java returns come value so it should be assigned to some vlaue like i did below</p>
+
+
 ```java
 
 class GreaterOrNot {
