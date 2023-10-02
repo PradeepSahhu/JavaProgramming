@@ -46,3 +46,30 @@ class CGPA {
 
 
 ```
+
+
+## Ternary Operator in java
+
+```java
+
+class GreaterOrNot {
+    int given;
+    int userinput;
+
+    GreaterOrNot(int given) {
+        this.given = given;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number");
+        this.userinput = sc.nextInt();
+        String value = given > userinput ? "given greater than userinput"
+                : "Userinput is greater than given";
+
+        System.out.println(value);
+
+        sc.close();
+
+    }
+
+}
+
+```
